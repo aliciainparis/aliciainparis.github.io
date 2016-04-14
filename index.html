@@ -15,7 +15,27 @@ html {
   		'Microsoft Yahei',
   		sans-serif;
   	line-height: 1.5;
+    min-width: 300px;
   }
+
+body>header{
+  display: table;
+  margin: auto;
+  background: #330033;
+}
+
+.logo{
+  padding: 5px;
+  margin: 0 0 0 5px;
+  border-radius: 12px;
+}
+
+.title{
+  border: 1px solid #FFF;
+  margin: 8px 10px 0px 5px;
+  float: right;
+  color: #FFF;
+}
 
 body>footer{
   position: fixed;
@@ -27,20 +47,16 @@ body>footer{
 	background: gray;
 	background: rgba(0, 0, 0, 0.75);
 }
-
-body>header{
-  margin: auto;
-  display: table;
-  border: 1px solid #669966;
-  text-align: center;
-  color: #669966;
-}
-
   </style>
 </head>
 
 <body>
-  <header>&nbsp;&nbsp;奈 何 / 奈 何 / 皆 自 由&nbsp;&nbsp;</header>
+  <header>
+    <img class="logo" src="logo-20160414.gif" alt="logo" />
+    <div class="title">
+      &nbsp;&nbsp;奈 何 / 奈 何 / 皆 自 由&nbsp;&nbsp;
+    </div>
+  </header>
 
   <footer><p class="copyright">
     <small>&copy;<b>TAN Di</b> 2015-2016 some rights reserved .</small>
